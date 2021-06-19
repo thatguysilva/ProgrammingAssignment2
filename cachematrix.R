@@ -35,5 +35,7 @@ cacheSolve <- function(x, ...) {
 	inv                          ## return inverse
 }
 
-
+## program can be tested with
+## testmatrix <- makeCacheMatrix(matrix(1:4, nrow = 2, ncol = 2))
+## cacheSolve(testmatrix)
 
